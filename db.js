@@ -32,21 +32,21 @@ db.serialize(function() {
         "Estudo",
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Di",
         "http://rocketseat.com.br"
-    ] */
+    ] 
     
-   /*  db.run(query, values, function(err) {
-        if (err) return console.log(err)
+        db.run(query, values, function(err) {
+            if (err) return console.log(err)
         
-    console.log(this)
+         console.log(this)
     }) */
         
         
         // Deletar um dado da tabela
-        //db.run(`DELETE FROM ideas WHERE id = ?`, [1], function(err) {
-        //    if (err) return console.log(err)
+       /*  db.run(`DELETE FROM ideas WHERE id = ?`, [1], function(err) {
+            if (err) return console.log(err)
 
-        //    console.log("DELETEI", this)
-        //})
+            console.log("DELETEI", this)
+        }) */
 
 
     // Consultar dados na tabela
